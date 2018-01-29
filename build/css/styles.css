@@ -77,14 +77,54 @@ header {
 #logo {
   display: inline-block;
   position: relative;
-  padding-top: 3.7vw;
-  padding-left: 4.8vw; }
+  width: 47.8vw;
+  padding: 3.7vw 0 0 4.8vw; }
 
 #burger {
   display: inline-block;
   position: relative;
-  top: -1vw;
-  margin-left: 35.3vw; }
+  width: 15.5vw;
+  float: right;
+  padding: 7.3vw 6.2vw 0 0; }
+
+.contact {
+  background-color: #222222;
+  padding-left: 9vw;
+  padding-top: 27.2vw;
+  padding-bottom: 10vw; }
+  .contact img, .contact h3 {
+    display: inline-block; }
+  .contact h3 {
+    color: #f2f2f2;
+    position: absolute;
+    margin-top: 3vw;
+    margin-left: 3vw;
+    font-size: 5vw; }
+  .contact p {
+    padding-top: 3vw;
+    padding-bottom: 15vw;
+    margin-left: 2vw;
+    color: #5d5d5d;
+    line-height: 7.6vw;
+    letter-spacing: 0.26vw;
+    font-size: 4.5vw; }
+
+#linkedin {
+  margin-top: 2.5vw;
+  margin-left: 1.5vw; }
+
+#twitter {
+  margin-left: 7.5vw; }
+
+#site {
+  color: #5d5d5d;
+  position: relative;
+  font-size: 4vw;
+  font-weight: lighter;
+  float: right;
+  margin-top: 6.5vw;
+  margin-right: 8vw;
+  letter-spacing: 0.3vw; }
 
 .c-page-title h1 {
   font-size: 18.6vw;
@@ -105,4 +145,241 @@ header {
   text-align: center;
   padding-top: 10.5vw;
   letter-spacing: 0.09vw;
-  margin-left: -6vw; }
+  margin-left: -6vw;
+  padding-bottom: 56.5vw; }
+
+.social {
+  background-color: #ffffff;
+  padding-top: 26vw;
+  padding-bottom: 23vw;
+  text-align: center; }
+  .social h2 {
+    font-size: 4.4vw;
+    font-weight: regular;
+    letter-spacing: 0.65vw;
+    padding-bottom: 10vw;
+    color: #999999; }
+  .social img {
+    margin: auto; }
+
+.media-object {
+  position: relative;
+  text-align: center;
+  background-color: #fbfbfb; }
+  .media-object #programing {
+    font-size: 4.1vw;
+    letter-spacing: 0.15vw;
+    color: #c41230;
+    word-spacing: 2.5vw;
+    padding-bottom: 10vw; }
+
+.development img {
+  margin: auto;
+  padding-top: 17vw;
+  padding-bottom: 9.8vw; }
+
+.development h2 {
+  font-size: 6.2vw;
+  font-weight: 700;
+  letter-spacing: 1.29vw;
+  padding-bottom: 18.9vw;
+  color: #222222; }
+
+.development .line {
+  border: 1px solid #d0d0d0;
+  width: 16%;
+  position: relative;
+  left: 42%;
+  bottom: 10vw; }
+
+.development p {
+  font-size: 5.6vw;
+  font-weight: 300;
+  padding: 1vw 5vw 20vw 5vw;
+  color: #666666;
+  line-height: 1.68;
+  text-align: center; }
+
+.web {
+  background-color: #ededed;
+  border-left: 1.2vw solid #fbfbfb;
+  border-right: 1.2vw solid #ededed; }
+  .web img {
+    margin: auto;
+    padding-top: 14.3vw;
+    padding-bottom: 9.8vw; }
+  .web h2 {
+    font-size: 6.2vw;
+    font-weight: 700;
+    letter-spacing: 1.29vw;
+    padding-bottom: 18.9vw;
+    color: #222222; }
+  .web .line {
+    border: 1px solid #c4c4c4;
+    width: 16%;
+    position: relative;
+    left: 42%;
+    bottom: 10vw; }
+  .web p {
+    font-size: 5.6vw;
+    font-weight: 300;
+    padding: 0 5vw 19vw 5vw;
+    color: #666666;
+    line-height: 1.68;
+    text-align: center; }
+
+.team img {
+  margin: auto;
+  padding-top: 20.2vw;
+  padding-bottom: 12.5vw; }
+
+.team h2 {
+  font-size: 6.2vw;
+  font-weight: 700;
+  letter-spacing: 1.29vw;
+  padding-bottom: 17.6vw;
+  color: #222222; }
+
+.team .line {
+  border: 1px solid #d0d0d0;
+  width: 16%;
+  position: relative;
+  left: 42%;
+  bottom: 8.6vw; }
+
+.team p {
+  font-size: 5.6vw;
+  font-weight: 300;
+  padding: 0 5vw 20vw 5vw;
+  color: #666666;
+  line-height: 1.68;
+  text-align: center; }
+
+.poslovi {
+  background-color: #ffffff; }
+  .poslovi h2 {
+    font-size: 4.4vw;
+    font-weight: regular;
+    letter-spacing: 0.59vw;
+    padding-top: 23vw;
+    padding-bottom: 6.3vw;
+    color: #999999; }
+  .poslovi h1 {
+    font-size: 11.7vw;
+    font-weight: medium;
+    color: #222222;
+    line-height: 0.992;
+    text-align: center;
+    letter-spacing: 0.57vw;
+    padding-bottom: 10vw; }
+  .poslovi .line {
+    border: 1px solid #c41230;
+    width: 18%;
+    position: relative;
+    left: 41%;
+    margin-left: 2vw;
+    margin-bottom: 11vw; }
+  .poslovi p {
+    font-size: 6vw;
+    font-weight: 300;
+    padding: 0 5vw 23vw 5vw;
+    color: #222222;
+    line-height: 1.6;
+    letter-spacing: 0.1vw;
+    text-align: center; }
+
+.front-end {
+  background-color: #f8f7f5;
+  text-align: left; }
+  .front-end h2 {
+    font-size: 5.6vw;
+    font-weight: medium;
+    padding: 9.5vw 0 4.2vw 5vw;
+    color: #222222;
+    letter-spacing: 0vw; }
+  .front-end p {
+    font-size: 4.7vw;
+    font-weight: lighter;
+    padding: 0 5vw 4vw 5vw;
+    color: #222222;
+    line-height: 1.38; }
+
+.pm {
+  background-color: #ffffff;
+  text-align: left; }
+  .pm h2 {
+    font-size: 5.6vw;
+    font-weight: medium;
+    padding: 9.5vw 0 4.2vw 5vw;
+    color: #222222;
+    letter-spacing: 0vw; }
+  .pm p {
+    font-size: 4.7vw;
+    font-weight: lighter;
+    padding: 0 5vw 4vw 5vw;
+    color: #222222;
+    line-height: 1.38; }
+
+.designer {
+  background-color: #f8f7f5;
+  text-align: left; }
+  .designer h2 {
+    font-size: 5.6vw;
+    font-weight: medium;
+    padding: 9.5vw 0 4.2vw 5vw;
+    color: #222222;
+    letter-spacing: 0vw; }
+  .designer p {
+    font-size: 4.7vw;
+    font-weight: lighter;
+    padding: 0 5vw 1.5vw 5vw;
+    color: #222222;
+    line-height: 1.38; }
+
+.more-jobs {
+  background-color: #ffffff;
+  padding: 24vw 5vw 24vw 5vw; }
+  .more-jobs h2 {
+    font-size: 4.3vw;
+    letter-spacing: 0.7vw;
+    background-color: #eeeeee;
+    color: #333333;
+    width: 70vw;
+    height: 16vw;
+    margin: auto;
+    padding-top: 6vw; }
+
+.company {
+  background-color: #fbfbfb;
+  text-align: center; }
+  .company h2 {
+    font-size: 4.4vw;
+    font-weight: regular;
+    letter-spacing: 0.65vw;
+    padding-top: 12.8vw;
+    padding-bottom: 10vw;
+    color: #999999;
+    margin-left: -2vw; }
+  .company h1 {
+    font-size: 11.7vw;
+    font-weight: medium;
+    color: #222222;
+    line-height: 1.13;
+    text-align: center;
+    letter-spacing: 0.55vw;
+    padding: 0 15vw 11vw 15vw;
+    margin-left: -2.5vw; }
+  .company .line {
+    border: 1px solid #c41230;
+    width: 18%;
+    position: relative;
+    left: 41%;
+    margin-left: -1vw;
+    margin-bottom: 12vw; }
+  .company p {
+    font-size: 5.7vw;
+    font-weight: lighter;
+    padding: 0 3vw 19vw 8vw;
+    color: #222222;
+    line-height: 1.65;
+    text-align: left; }
