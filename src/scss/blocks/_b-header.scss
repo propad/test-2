@@ -1,20 +1,27 @@
 header{
+  position: fixed;
   height: 21.7vw;
-  // background-color: blue;
+  background-color: #efe9db;
+  width: 100%;
+  z-index: 20;
 }
 
 
 #logo{
   display: inline-block;
   position: relative;
-  width: 47.8vw;
-  padding: 3.7vw 0 0 4.8vw;
+  margin: 3.8vw 0 0 4.8vw;
+  width: 43vw;
 }
 
-#burger{
+.burger{
   display: inline-block;
   position: relative;
-  width: 15.5vw;
+  width: 9.3vw;
   float: right;
-  padding: 7.3vw 6.2vw 0 0;
+  margin: 7.2vw 6.3vw 0 0;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+
 }

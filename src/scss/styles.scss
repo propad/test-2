@@ -3,9 +3,11 @@
 @import "mixins/mix-breakpoints";
 
 @import "blocks/b-header";
+@import "blocks/b-footer";
 @import "blocks/b-contact";
 
 @import "components/c-page-title";
-@import "components/social";
+@import "components/c-social";
+@import "components/c-menu";
 
-@import "objects/media-object";
+@import "objects/o-media-object";
