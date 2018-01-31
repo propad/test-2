@@ -1,56 +1,110 @@
 .contact{
-background-color: #222222;
- padding-left: 9vw;
- padding-top: 27.2vw;
- padding-bottom: 10vw;
-    img, h3{
-      display: inline-block;
- }
+     background-color: #222222;
+     padding-left: 9vw;
+     padding-top: 27.2vw;
+     padding-bottom: 8vw;
+     @include breakpoint(tablet){
+        padding-left: 9.8vw;
+        padding-top: 13.2vw;
+        padding-bottom: 10vw;
+        width: 100%;
+        .location{
+          display: inline-block;
+          width: 32%;
+          vertical-align: top;
+          margin-right: 3.4vw;
+        }
+        #location-3{
+          margin-left: -6vw;
+          padding-left: 5.3vw;
+          width: 30%;
+        }
+     }
+        img, h3{
+          display: inline-block;
+           @include breakpoint(tablet){
+             display: inline-block;
+           }
+     }
 
-    #map{
-      width: 5.4vw;
+        .map{
+          width: 5.4vw;
+          @include breakpoint(tablet){
+              width: 1.8vw;
+          }
+        }
+         h3{
+           color: #f2f2f2;
+           position: absolute;
+           margin-top: 3vw;
+          margin-left: 3vw;
+          font-size: 5vw;
+          @include breakpoint(tablet){
+            margin-top: 0.9vw;
+           margin-left: 0.8vw;
+           font-size: 1.6vw;
+          }
     }
-     h3{
-       color: #f2f2f2;
-       position: absolute;
-       margin-top: 3vw;
-      margin-left: 3vw;
-      font-size: 5vw;
+
+         p{
+        padding-top: 3vw;
+        padding-bottom: 15vw;
+        margin-left: 2vw;
+        color: #5d5d5d;
+        line-height: 7.6vw;
+        letter-spacing: 0.26vw;
+        font-size: 4.5vw;
+        text-decoration: none;
+        @include breakpoint(tablet){
+          padding-top: 1.8vw;
+          padding-bottom: 2vw;
+          margin-left: -0.2vw;
+          line-height: 2.4vw;
+          letter-spacing: 0vw;
+          font-size: 1.5vw;
+        }
+    }
 }
 
-     p{
-    padding-top: 3vw;
-    padding-bottom: 15vw;
-    margin-left: 2vw;
-    color: #5d5d5d;
-    line-height: 7.6vw;
-    letter-spacing: 0.26vw;
-    font-size: 4.5vw;
-    font-style: none;
-    }
-}
 .social-2{
-margin-bottom: -2vw;
+    @include breakpoint(tablet){
+      text-align: right;
+    }
+    #linkedin{
+      margin-top: 2vw;
+      margin-left: 1vw;
+      width: 10vw;
+      @include breakpoint(tablet){
+        width: 2.3vw;
+        margin-right: -1vw;
+      }
+    }
+    #twitter-2{
+      margin-top: 4vw;
+      margin-left: 7.5vw;
+      width: 9.5vw;
+      @include breakpoint(tablet){
+        margin-top: 10vw;
+        margin-left: 2.5vw;
+        margin-right: 2vw;
+        width: 2.3vw;
+      }
+    }
 
-#linkedin{
-  margin-top: 2vw;
-  margin-left: 1vw;
-  width: 10vw;
-}
-#twitter-2{
-  margin-top: 4vw;
-  margin-left: 7.5vw;
-  width: 9.5vw;
-}
-
-#site{
-  color: #5d5d5d;
-  position: relative;
-  font-size: 4vw;
-  font-weight: lighter;
-  float: right;
-  margin-top: 8vw;
-  margin-right: 8vw;
-  letter-spacing: 0.3vw;
-}
+    #site{
+      color: #5d5d5d;
+      position: relative;
+      font-size: 4vw;
+      font-weight: lighter;
+      float: right;
+      margin-top: 8vw;
+      margin-right: 8vw;
+      letter-spacing: 0.3vw;
+      @include breakpoint(tablet){
+        font-size: 1.1vw;
+        margin-top: 11vw;
+        margin-right: 4vw;
+        letter-spacing: 0.1vw;
+      }
+     }
 }

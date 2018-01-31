@@ -3,6 +3,12 @@
   padding-top: 26vw;
   padding-bottom: 23vw;
   text-align: center;
+  @include breakpoint(tablet){
+    background-color: #ffffff;
+    padding-top: 9vw;
+    padding-bottom: 13.5vw;
+    text-align: center;
+  };
 
   h2{
     font-size: 4.4vw;
@@ -11,10 +17,21 @@
     // padding-top: 12.8vw;
     padding-bottom: 10vw;
     color: #999999;
+    @include breakpoint(tablet){
+      font-size: 1.2vw;
+      font-weight: regular;
+      letter-spacing: 0.1vw;
+      // padding-top: 12.8vw;
+      padding-bottom: 2.2vw;
+      color: #999999;
+    }
  }
   img{
     margin: auto;
     width: 44.4vw;
+    @include breakpoint(tablet){
+      margin: auto;
+      width: 14.2vw;
+    }
   }
-
 }

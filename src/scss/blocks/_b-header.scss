@@ -4,6 +4,10 @@ header{
   background-color: #efe9db;
   width: 100%;
   z-index: 20;
+  @include breakpoint(tablet){
+    height: 8vw;
+    background-color: #f3eee3;
+  }
 }
 
 
@@ -12,6 +16,10 @@ header{
   position: relative;
   margin: 3.8vw 0 0 4.8vw;
   width: 43vw;
+  @include breakpoint(tablet){
+    margin: 2.5vw 0 0 5.6vw;
+    width: 12.5vw;
+  }
 }
 
 .burger{
@@ -23,5 +31,8 @@ header{
   cursor: pointer;
   -webkit-user-select: none;
   user-select: none;
-
+  @include breakpoint(tablet){
+    width: 2.8vw;
+    margin: 2.1vw 2.3vw 0 0;
+  }
 }
