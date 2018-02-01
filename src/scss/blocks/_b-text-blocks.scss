@@ -1,0 +1,168 @@
+.text-blocks{
+      #pm{
+        background-color: #ffffff;
+      }
+      .jobs{
+            background-color: #ffffff;
+            text-align: center;
+
+                h2{
+                  font-size: 4.4vw;
+                  font-weight: regular;
+                  letter-spacing: 0.59vw;
+                  padding-top: 26vw;
+                  padding-bottom: 6.5vw;
+                  color: #999999;
+                  @include breakpoint(tablet){
+                    font-size: 1vw;
+                    letter-spacing: 0.29vw;
+                    padding-top: 15.5vw;
+                    padding-bottom: 3.9vw;
+                  }
+                }
+
+                h1{
+                  font-size: 11.7vw;
+                  font-weight: medium;
+                  color: #222222;
+                  line-height: 0.992;
+                  text-align: center;
+                  letter-spacing: 0.57vw;
+                  padding-bottom: 10vw;
+                  @include breakpoint(tablet){
+                    font-size: 4.8vw;
+                    letter-spacing: 0.05vw;
+                    padding-bottom: 4vw;
+                  }
+                }
+
+                .line{
+                  border: 1px solid #c41230;
+                  width: 18%;
+                  position: relative;
+                  left: 41%;
+                  margin-left: 2vw;
+                  margin-bottom: 11vw;
+                  @include breakpoint(tablet){
+                    border: 1px solid #c41230;
+                    width: 5.5%;
+                    position: relative;
+                    left: 45%;
+                    margin-left: 2vw;
+                    margin-bottom: 4.5vw;
+                  }
+                }
+
+                  p{
+                    font-size: 6vw;
+                    font-weight: 300;
+                    padding:0 5vw 23vw 5vw;
+                    color: #222222;
+                    line-height: 1.6;
+                    letter-spacing: 0.1vw;
+                    text-align: center;
+                    @include breakpoint(tablet){
+                      font-size: 2.3vw;
+                      padding:0 14vw 5vw 14vw;
+                      line-height: 1.5;
+                      letter-spacing: 0vw;
+                    }
+                  }
+             }
+
+
+      .job{
+
+               background-color: #f8f7f5;
+               text-align: left;
+               @include breakpoint(tablet){
+                 background-color: #ffffff;
+               }
+
+
+                    h2{
+                      font-size: 5.6vw;
+                      font-weight: medium;
+                      padding: 9.5vw 0 4.2vw 5vw;
+                      color: #222222;
+                      letter-spacing: 0vw;
+                      @include breakpoint(tablet){
+                        font-size: 1.6vw;
+                        padding: 4.5vw 0 0 9vw;
+                        letter-spacing: 0.05vw;
+                      }
+                    }
+
+                    p{
+                      font-size: 4.7vw;
+                      font-weight: lighter;
+                      padding:0 5vw 4vw 5vw;
+                      color: #222222;
+                      line-height: 1.38;
+                      @include breakpoint(tablet){
+                        display: inline-block;
+                        font-size: 1.8vw;
+                        padding:2vw 5vw 1.8vw 9vw;
+                        line-height: 1.47;
+                        width: 60vw;
+                      }
+                    }
+                    .programing{
+                      font-size: 4.1vw;
+                      letter-spacing: 0.15vw;
+                      color: #c41230;
+                      word-spacing: 2.5vw;
+                      padding-bottom: 10vw;
+                      @include breakpoint(tablet){
+                        font-size: 1.1vw;
+                        letter-spacing: 0.12vw;
+                        word-spacing: 4.7vw;
+                        padding-bottom: 7.8vw;
+                        padding-left: 11.2vw;
+                      }
+                    }
+                    .apply{
+                      display: none;
+                      @include breakpoint(tablet){
+                        display: inline-block;
+                        position: relative;
+                        top: -0.8vw;
+                        color: #222222;
+                        font-size: 1.4vw;
+                        letter-spacing: 0.2vw;
+                        width: 16.3vw;
+                        border: 1.5px solid #222222;
+                        padding: 1vw;
+                        text-align: center;
+                        margin-left: 13.9vw;
+                      }
+                    }
+               }
+
+      .more-jobs{
+              background-color: #ffffff;
+              padding: 24vw 5vw 24vw 5vw;
+              text-align: center;
+                @include breakpoint(tablet){
+                  padding: 3vw 5vw 13.5vw 5vw;
+                }
+
+              h2{
+                font-size: 4.3vw;
+                letter-spacing: 0.7vw;
+                background-color: #eeeeee;
+                color: #333333;
+                width: 70vw;
+                height: 16vw;
+                margin: auto;
+                padding-top: 6vw;
+                @include breakpoint(tablet){
+                  font-size: 1.4vw;
+                  letter-spacing: 0.2vw;
+                  width: 21.6vw;
+                  height: 5vw;
+                  padding-top: 2vw;
+                }
+              }
+            }
+}

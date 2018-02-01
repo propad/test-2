@@ -86,13 +86,13 @@ header {
       height: 8vw;
       background-color: #f3eee3; } }
 
-#logo {
+.logo {
   display: inline-block;
   position: relative;
   margin: 3.8vw 0 0 4.8vw;
   width: 43vw; }
   @media (min-width: 768px) and (max-width: 1024px) {
-    #logo {
+    .logo {
       margin: 2.5vw 0 0 5.6vw;
       width: 12.5vw; } }
 
@@ -208,7 +208,7 @@ header {
   font-size: 4vw;
   font-weight: lighter;
   float: right;
-  margin-top: 8vw;
+  margin-top: 7.5vw;
   margin-right: 8vw;
   letter-spacing: 0.3vw; }
   @media (min-width: 768px) and (max-width: 1024px) {
@@ -217,6 +217,151 @@ header {
       margin-top: 11vw;
       margin-right: 4vw;
       letter-spacing: 0.1vw; } }
+
+.text-blocks #pm {
+  background-color: #ffffff; }
+
+.text-blocks .jobs {
+  background-color: #ffffff;
+  text-align: center; }
+  .text-blocks .jobs h2 {
+    font-size: 4.4vw;
+    font-weight: regular;
+    letter-spacing: 0.59vw;
+    padding-top: 26vw;
+    padding-bottom: 6.5vw;
+    color: #999999; }
+    @media (min-width: 768px) and (max-width: 1024px) {
+      .text-blocks .jobs h2 {
+        font-size: 1vw;
+        letter-spacing: 0.29vw;
+        padding-top: 15.5vw;
+        padding-bottom: 3.9vw; } }
+  .text-blocks .jobs h1 {
+    font-size: 11.7vw;
+    font-weight: medium;
+    color: #222222;
+    line-height: 0.992;
+    text-align: center;
+    letter-spacing: 0.57vw;
+    padding-bottom: 10vw; }
+    @media (min-width: 768px) and (max-width: 1024px) {
+      .text-blocks .jobs h1 {
+        font-size: 4.8vw;
+        letter-spacing: 0.05vw;
+        padding-bottom: 4vw; } }
+  .text-blocks .jobs .line {
+    border: 1px solid #c41230;
+    width: 18%;
+    position: relative;
+    left: 41%;
+    margin-left: 2vw;
+    margin-bottom: 11vw; }
+    @media (min-width: 768px) and (max-width: 1024px) {
+      .text-blocks .jobs .line {
+        border: 1px solid #c41230;
+        width: 5.5%;
+        position: relative;
+        left: 45%;
+        margin-left: 2vw;
+        margin-bottom: 4.5vw; } }
+  .text-blocks .jobs p {
+    font-size: 6vw;
+    font-weight: 300;
+    padding: 0 5vw 23vw 5vw;
+    color: #222222;
+    line-height: 1.6;
+    letter-spacing: 0.1vw;
+    text-align: center; }
+    @media (min-width: 768px) and (max-width: 1024px) {
+      .text-blocks .jobs p {
+        font-size: 2.3vw;
+        padding: 0 14vw 5vw 14vw;
+        line-height: 1.5;
+        letter-spacing: 0vw; } }
+
+.text-blocks .job {
+  background-color: #f8f7f5;
+  text-align: left; }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .text-blocks .job {
+      background-color: #ffffff; } }
+  .text-blocks .job h2 {
+    font-size: 5.6vw;
+    font-weight: medium;
+    padding: 9.5vw 0 4.2vw 5vw;
+    color: #222222;
+    letter-spacing: 0vw; }
+    @media (min-width: 768px) and (max-width: 1024px) {
+      .text-blocks .job h2 {
+        font-size: 1.6vw;
+        padding: 4.5vw 0 0 9vw;
+        letter-spacing: 0.05vw; } }
+  .text-blocks .job p {
+    font-size: 4.7vw;
+    font-weight: lighter;
+    padding: 0 5vw 4vw 5vw;
+    color: #222222;
+    line-height: 1.38; }
+    @media (min-width: 768px) and (max-width: 1024px) {
+      .text-blocks .job p {
+        display: inline-block;
+        font-size: 1.8vw;
+        padding: 2vw 5vw 1.8vw 9vw;
+        line-height: 1.47;
+        width: 60vw; } }
+  .text-blocks .job .programing {
+    font-size: 4.1vw;
+    letter-spacing: 0.15vw;
+    color: #c41230;
+    word-spacing: 2.5vw;
+    padding-bottom: 10vw; }
+    @media (min-width: 768px) and (max-width: 1024px) {
+      .text-blocks .job .programing {
+        font-size: 1.1vw;
+        letter-spacing: 0.12vw;
+        word-spacing: 4.7vw;
+        padding-bottom: 7.8vw;
+        padding-left: 11.2vw; } }
+  .text-blocks .job .apply {
+    display: none; }
+    @media (min-width: 768px) and (max-width: 1024px) {
+      .text-blocks .job .apply {
+        display: inline-block;
+        position: relative;
+        top: -0.8vw;
+        color: #222222;
+        font-size: 1.4vw;
+        letter-spacing: 0.2vw;
+        width: 16.3vw;
+        border: 1.5px solid #222222;
+        padding: 1vw;
+        text-align: center;
+        margin-left: 13.9vw; } }
+
+.text-blocks .more-jobs {
+  background-color: #ffffff;
+  padding: 24vw 5vw 24vw 5vw;
+  text-align: center; }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .text-blocks .more-jobs {
+      padding: 3vw 5vw 13.5vw 5vw; } }
+  .text-blocks .more-jobs h2 {
+    font-size: 4.3vw;
+    letter-spacing: 0.7vw;
+    background-color: #eeeeee;
+    color: #333333;
+    width: 70vw;
+    height: 16vw;
+    margin: auto;
+    padding-top: 6vw; }
+    @media (min-width: 768px) and (max-width: 1024px) {
+      .text-blocks .more-jobs h2 {
+        font-size: 1.4vw;
+        letter-spacing: 0.2vw;
+        width: 21.6vw;
+        height: 5vw;
+        padding-top: 2vw; } }
 
 .c-page-title {
   padding-top: 21.7vw; }
@@ -338,432 +483,84 @@ header {
     padding: 21vw 8.5vw 0 0;
     width: 16vw; }
 
-.media-object {
+.objects-list {
   position: relative;
   text-align: center;
   background-color: #fbfbfb; }
-  .media-object #programing {
-    font-size: 4.1vw;
-    letter-spacing: 0.15vw;
-    color: #c41230;
-    word-spacing: 2.5vw;
-    padding-bottom: 10vw; }
-  .media-object #apply {
-    display: none; }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .objects-list {
+      margin-top: -0.2vw; } }
+  .objects-list #web {
+    background-color: #ededed; }
+    .objects-list #web img {
+      width: 23.4vw; }
+  .objects-list #team img {
+    width: 23.4vw;
+    padding-top: 20.5vw; }
 
-.development img {
+@media (min-width: 768px) and (max-width: 1024px) {
+  .object {
+    display: inline-block;
+    width: 33%; } }
+
+.object img {
   margin: auto;
   width: 27.4vw;
   padding-top: 17vw;
   padding-bottom: 9.8vw; }
-
-.development h2 {
-  font-size: 6.2vw;
-  font-weight: 700;
-  letter-spacing: 1.29vw;
-  padding-bottom: 18.9vw;
-  color: #222222; }
-
-.development .line {
-  border: 1px solid #d0d0d0;
-  width: 16%;
-  position: relative;
-  left: 42%;
-  bottom: 10vw; }
-
-.development p {
-  font-size: 5.6vw;
-  font-weight: 300;
-  padding: 1vw 5vw 20vw 5vw;
-  color: #666666;
-  line-height: 1.68;
-  text-align: center; }
-
-@media (min-width: 1024px) {
-  .media-object {
-    margin-top: -0.2vw; }
-  .development {
-    display: inline-block;
-    width: 33%; }
-    .development img {
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .object img {
       width: 7vw;
       padding-top: 3vw;
-      padding-bottom: 3vw; }
-    .development h2 {
-      font-size: 2vw;
-      font-weight: 700;
-      letter-spacing: 0.39vw;
-      padding-bottom: 3.5vw; }
-    .development .line {
-      border: 1px solid #d0d0d0;
-      width: 10%;
-      left: 45%;
-      bottom: 1vw; }
-    .development p {
-      font-size: 1.6vw;
-      font-weight: 300;
-      padding: 1vw 2vw 7.5vw 2vw;
-      line-height: 1.71;
-      letter-spacing: 0.01vw; } }
+      padding-bottom: 3vw; } }
 
-.web {
-  background-color: #ededed;
-  border-left: 1.2vw solid #fbfbfb;
-  border-right: 1.2vw solid #ededed; }
-  .web img {
-    margin: auto;
-    width: 23.4vw;
-    padding-top: 14.3vw;
-    padding-bottom: 9.8vw; }
-  .web h2 {
-    font-size: 6.2vw;
-    font-weight: 700;
-    letter-spacing: 1.29vw;
-    padding-bottom: 18.9vw;
-    color: #222222; }
-  .web .line {
-    border: 1px solid #c4c4c4;
-    width: 16%;
-    position: relative;
-    left: 42%;
-    bottom: 10vw; }
-  .web p {
-    font-size: 5.6vw;
-    font-weight: 300;
-    padding: 0 5vw 19vw 5vw;
-    color: #666666;
-    line-height: 1.68;
-    text-align: center; }
-
-@media (min-width: 1024px) {
-  .web {
-    display: inline-block;
-    width: 33%;
-    padding-top: 1vw;
-    border-left: 0 solid #fbfbfb;
-    border-right: 0 solid #ededed; }
-    .web img {
-      width: 6vw;
-      padding-top: 3.3vw;
-      padding-bottom: 2.7vw; }
-    .web h2 {
-      font-size: 2vw;
-      font-weight: 700;
-      letter-spacing: 0.39vw;
-      padding-bottom: 3.5vw; }
-    .web .line {
-      border: 1px solid #d0d0d0;
-      width: 10%;
-      left: 45%;
-      bottom: 1vw; }
-    .web p {
-      font-size: 1.6vw;
-      font-weight: 300;
-      padding: 1vw 2vw 7.5vw 2vw;
-      line-height: 1.71;
-      letter-spacing: 0.01vw; } }
-
-.team img {
-  margin: auto;
-  width: 23.3vw;
-  padding-top: 20.2vw;
-  padding-bottom: 12.5vw; }
-
-.team h2 {
+.object h2 {
   font-size: 6.2vw;
   font-weight: 700;
   letter-spacing: 1.29vw;
-  padding-bottom: 17.6vw;
+  padding-bottom: 18vw;
   color: #222222; }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .object h2 {
+      font-size: 2vw;
+      font-weight: 700;
+      letter-spacing: 0.39vw;
+      padding-bottom: 3.5vw; } }
 
-.team .line {
+.object .line {
   border: 1px solid #d0d0d0;
   width: 16%;
   position: relative;
   left: 42%;
-  bottom: 8.6vw; }
+  bottom: 9vw; }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .object .line {
+      width: 10%;
+      left: 45%;
+      bottom: 1vw; } }
 
-.team p {
+.object p {
   font-size: 5.6vw;
   font-weight: 300;
-  padding: 0 5vw 20vw 5vw;
+  padding: 1vw 5vw 18vw 5vw;
   color: #666666;
   line-height: 1.68;
   text-align: center; }
-
-@media (min-width: 1024px) {
-  .team {
-    display: inline-block;
-    width: 33%; }
-    .team img {
-      width: 6vw;
-      padding-top: 4.3vw;
-      padding-bottom: 2.7vw; }
-    .team h2 {
-      font-size: 2vw;
-      font-weight: 700;
-      letter-spacing: 0.39vw;
-      padding-bottom: 3.5vw; }
-    .team .line {
-      border: 1px solid #d0d0d0;
-      width: 10%;
-      left: 45%;
-      bottom: 1vw; }
-    .team p {
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .object p {
       font-size: 1.6vw;
       font-weight: 300;
       padding: 1vw 2vw 7.5vw 2vw;
       line-height: 1.71;
       letter-spacing: 0.01vw; } }
-
-.jobs {
-  background-color: #ffffff; }
-  .jobs h2 {
-    font-size: 4.4vw;
-    font-weight: regular;
-    letter-spacing: 0.59vw;
-    padding-top: 23vw;
-    padding-bottom: 6.3vw;
-    color: #999999; }
-  .jobs h1 {
-    font-size: 11.7vw;
-    font-weight: medium;
-    color: #222222;
-    line-height: 0.992;
-    text-align: center;
-    letter-spacing: 0.57vw;
-    padding-bottom: 10vw; }
-  .jobs .line {
-    border: 1px solid #c41230;
-    width: 18%;
-    position: relative;
-    left: 41%;
-    margin-left: 2vw;
-    margin-bottom: 11vw; }
-  .jobs p {
-    font-size: 6vw;
-    font-weight: 300;
-    padding: 0 5vw 23vw 5vw;
-    color: #222222;
-    line-height: 1.6;
-    letter-spacing: 0.1vw;
-    text-align: center; }
-
-@media (min-width: 1024px) {
-  .jobs h2 {
-    font-size: 1vw;
-    letter-spacing: 0.29vw;
-    padding-top: 15.5vw;
-    padding-bottom: 3.9vw; }
-  .jobs h1 {
-    font-size: 4.8vw;
-    letter-spacing: 0.05vw;
-    padding-bottom: 4vw; }
-  .jobs .line {
-    border: 1px solid #c41230;
-    width: 5.5%;
-    position: relative;
-    left: 45%;
-    margin-left: 2vw;
-    margin-bottom: 4.5vw; }
-  .jobs p {
-    font-size: 2.3vw;
-    font-weight: 300;
-    padding: 0 14vw 5vw 14vw;
-    color: #222222;
-    line-height: 1.5;
-    letter-spacing: 0vw;
-    text-align: center; } }
-
-.front-end {
-  background-color: #f8f7f5;
-  text-align: left; }
-  .front-end h2 {
-    font-size: 5.6vw;
-    font-weight: medium;
-    padding: 9.5vw 0 4.2vw 5vw;
-    color: #222222;
-    letter-spacing: 0vw; }
-  .front-end p {
-    font-size: 4.7vw;
-    font-weight: lighter;
-    padding: 0 5vw 4vw 5vw;
-    color: #222222;
-    line-height: 1.38; }
-
-@media (min-width: 1024px) {
-  .front-end {
-    background-color: #ffffff; }
-    .front-end h2 {
-      font-size: 1.6vw;
-      font-weight: medium;
-      padding: 4.5vw 0 0 9vw;
-      color: #222222;
-      letter-spacing: 0.05vw; }
-    .front-end p {
-      display: inline-block;
-      font-size: 1.8vw;
-      font-weight: lighter;
-      padding: 2vw 5vw 1.8vw 9vw;
-      color: #222222;
-      line-height: 1.47;
-      width: 60vw; }
-    .front-end #apply {
-      display: inline-block;
-      position: relative;
-      top: -0.8vw;
-      color: #222222;
-      font-size: 1.4vw;
-      letter-spacing: 0.2vw;
-      width: 16.3vw;
-      border: 1.5px solid #222222;
-      padding: 1vw;
-      text-align: center;
-      margin-left: 13.9vw; }
-    .front-end #programing {
-      font-size: 1.1vw;
-      letter-spacing: 0.12vw;
-      color: #c41230;
-      word-spacing: 4.7vw;
-      padding-bottom: 7.8vw;
-      padding-left: 11.2vw; } }
-
-.pm {
-  background-color: #ffffff;
-  text-align: left; }
-  .pm h2 {
-    font-size: 5.6vw;
-    font-weight: medium;
-    padding: 9.5vw 0 4.2vw 5vw;
-    color: #222222;
-    letter-spacing: 0vw; }
-  .pm p {
-    font-size: 4.7vw;
-    font-weight: lighter;
-    padding: 0 5vw 4vw 5vw;
-    color: #222222;
-    line-height: 1.38; }
-
-@media (min-width: 1024px) {
-  .pm {
-    background-color: #222222;
-    text-align: left; }
-    .pm h2 {
-      font-size: 1.6vw;
-      font-weight: medium;
-      padding: 4.7vw 0 0 9vw;
-      color: #f2f2f2;
-      letter-spacing: 0.03vw; }
-    .pm p {
-      display: inline-block;
-      font-size: 1.8vw;
-      font-weight: lighter;
-      padding: 2vw 5vw 2vw 9vw;
-      color: #f2f2f2;
-      line-height: 1.5;
-      width: 60vw; }
-    .pm #apply {
-      display: inline-block;
-      color: #f2f2f2;
-      position: relative;
-      top: -0.7vw;
-      font-size: 1.4vw;
-      letter-spacing: 0.2vw;
-      width: 16.3vw;
-      border: 1.5px solid #f2f2f2;
-      padding: 1vw;
-      text-align: center;
-      margin-left: 13.9vw; }
-    .pm #programing {
-      font-size: 1.1vw;
-      letter-spacing: 0.12vw;
-      color: #f2f2f2;
-      word-spacing: 4.7vw;
-      padding-bottom: 6.2vw;
-      padding-left: 11.2vw; } }
-
-.designer {
-  background-color: #f8f7f5;
-  text-align: left; }
-  .designer h2 {
-    font-size: 5.6vw;
-    font-weight: medium;
-    padding: 9.5vw 0 4.2vw 5vw;
-    color: #222222;
-    letter-spacing: 0vw; }
-  .designer p {
-    font-size: 4.7vw;
-    font-weight: lighter;
-    padding: 0 5vw 1.5vw 5vw;
-    color: #222222;
-    line-height: 1.38; }
-
-@media (min-width: 1024px) {
-  .designer {
-    background-color: #ffffff; }
-    .designer h2 {
-      font-size: 1.6vw;
-      font-weight: medium;
-      padding: 6.9vw 0 0 9vw;
-      color: #222222;
-      letter-spacing: 0.05vw; }
-    .designer p {
-      display: inline-block;
-      font-size: 1.8vw;
-      font-weight: lighter;
-      padding: 2vw 5vw 1.8vw 9vw;
-      color: #222222;
-      line-height: 1.47;
-      width: 65vw; }
-    .designer #apply {
-      display: inline-block;
-      color: #222222;
-      font-size: 1.4vw;
-      position: relative;
-      top: -0.8vw;
-      letter-spacing: 0.2vw;
-      width: 16.3vw;
-      border: 1.5px solid #222222;
-      padding: 1vw;
-      text-align: center;
-      margin-left: 8.9vw; }
-    .designer #programing {
-      font-size: 1.1vw;
-      letter-spacing: 0.12vw;
-      color: #c41230;
-      word-spacing: 4.7vw;
-      padding-bottom: 7.8vw;
-      padding-left: 11.2vw; } }
-
-.more-jobs {
-  background-color: #ffffff;
-  padding: 24vw 5vw 24vw 5vw; }
-  .more-jobs h2 {
-    font-size: 4.3vw;
-    letter-spacing: 0.7vw;
-    background-color: #eeeeee;
-    color: #333333;
-    width: 70vw;
-    height: 16vw;
-    margin: auto;
-    padding-top: 6vw; }
-
-@media (min-width: 1024px) {
-  .more-jobs {
-    background-color: #ffffff;
-    padding: 3vw 5vw 13.5vw 5vw; }
-    .more-jobs h2 {
-      font-size: 1.4vw;
-      letter-spacing: 0.2vw;
-      background-color: #eeeeee;
-      color: #333333;
-      width: 21.6vw;
-      height: 5vw;
-      padding-top: 2vw; } }
 
 .company {
   background-color: #fbfbfb;
   text-align: center; }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .company {
+      background-color: #fbfbfb;
+      text-align: center; } }
   .company h2 {
     font-size: 4.4vw;
     font-weight: regular;
@@ -772,6 +569,12 @@ header {
     padding-bottom: 10vw;
     color: #999999;
     margin-left: -2vw; }
+    @media (min-width: 768px) and (max-width: 1024px) {
+      .company h2 {
+        font-size: 1.2vw;
+        letter-spacing: 0.2vw;
+        padding-top: 8.8vw;
+        padding-bottom: 4vw; } }
   .company h1 {
     font-size: 11.7vw;
     font-weight: medium;
@@ -781,6 +584,12 @@ header {
     letter-spacing: 0.55vw;
     padding: 0 15vw 11vw 15vw;
     margin-left: -2.5vw; }
+    @media (min-width: 768px) and (max-width: 1024px) {
+      .company h1 {
+        font-size: 4.7vw;
+        letter-spacing: 0.1vw;
+        padding: 0 15vw 4.2vw 15vw;
+        margin-left: -1.5vw; } }
   .company .line {
     border: 1px solid #c41230;
     width: 18%;
@@ -788,6 +597,12 @@ header {
     left: 41%;
     margin-left: -1vw;
     margin-bottom: 12vw; }
+    @media (min-width: 768px) and (max-width: 1024px) {
+      .company .line {
+        width: 5.5%;
+        left: 48%;
+        margin-left: -1vw;
+        margin-bottom: 5.6vw; } }
   .company p {
     font-size: 5.7vw;
     font-weight: lighter;
@@ -795,40 +610,8 @@ header {
     color: #222222;
     line-height: 1.65;
     text-align: left; }
-
-@media (min-width: 1024px) {
-  .company {
-    background-color: #fbfbfb;
-    text-align: center; }
-    .company h2 {
-      font-size: 1.2vw;
-      font-weight: regular;
-      letter-spacing: 0.2vw;
-      padding-top: 8.8vw;
-      padding-bottom: 4vw;
-      color: #999999;
-      margin-left: -2vw; }
-    .company h1 {
-      font-size: 4.7vw;
-      font-weight: medium;
-      color: #222222;
-      line-height: 1.13;
-      text-align: center;
-      letter-spacing: 0.1vw;
-      padding: 0 15vw 4.2vw 15vw;
-      margin-left: -1.5vw; }
-    .company .line {
-      border: 1px solid #c41230;
-      width: 5.5%;
-      position: relative;
-      left: 48%;
-      margin-left: -1vw;
-      margin-bottom: 5.6vw; }
-    .company p {
-      font-size: 1.4vw;
-      font-weight: lighter;
-      padding: 0 9vw 12.5vw 10vw;
-      color: #222222;
-      line-height: 1.65;
-      letter-spacing: 0.005vw;
-      text-align: left; } }
+    @media (min-width: 768px) and (max-width: 1024px) {
+      .company p {
+        font-size: 1.4vw;
+        padding: 0 9vw 12.5vw 10vw;
+        letter-spacing: 0.005vw; } }
