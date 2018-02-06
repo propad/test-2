@@ -10,12 +10,22 @@
     background-color: #ededed;
     img{
       width: 23.4vw;
+      @include breakpoint(tablet){
+        width: 6vw;
+        padding-top: 4vw;
+        padding-bottom: 3vw;
+      }
     }
   }
   #team{
     img{
       width: 23.4vw;
       padding-top: 20.5vw;
+      @include breakpoint(tablet){
+        width: 6vw;
+        padding-top: 4vw;
+        padding-bottom: 3vw;
+      }
     }
   }
 }
@@ -33,7 +43,7 @@
     padding-bottom: 9.8vw;
     @include breakpoint(tablet){
       width: 7vw;
-      padding-top: 3vw;
+      padding-top: 4vw;
       padding-bottom: 3vw;
     }
     }
@@ -148,9 +158,10 @@
           line-height: 1.65;
           text-align: left;
           @include breakpoint(tablet){
-            font-size: 1.4vw;
+            font-size: 1.8vw;
             padding:0 9vw 12.5vw 10vw;
-            letter-spacing: 0.005vw;
+            letter-spacing: -0.02vw;
+            line-height: 1.55;
           }
         }
 }

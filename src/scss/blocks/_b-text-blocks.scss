@@ -1,7 +1,5 @@
 .text-blocks{
-      #pm{
-        background-color: #ffffff;
-      }
+
       .jobs{
             background-color: #ffffff;
             text-align: center;
@@ -14,10 +12,10 @@
                   padding-bottom: 6.5vw;
                   color: #999999;
                   @include breakpoint(tablet){
-                    font-size: 1vw;
+                    font-size: 1.2vw;
                     letter-spacing: 0.29vw;
                     padding-top: 15.5vw;
-                    padding-bottom: 3.9vw;
+                    padding-bottom: 4vw;
                   }
                 }
 
@@ -32,7 +30,7 @@
                   @include breakpoint(tablet){
                     font-size: 4.8vw;
                     letter-spacing: 0.05vw;
-                    padding-bottom: 4vw;
+                    padding-bottom: 3.8vw;
                   }
                 }
 
@@ -87,8 +85,8 @@
                       color: #222222;
                       letter-spacing: 0vw;
                       @include breakpoint(tablet){
-                        font-size: 1.6vw;
-                        padding: 4.5vw 0 0 9vw;
+                        font-size: 1.9vw;
+                        padding: 4.5vw 0 0.3vw 9vw;
                         letter-spacing: 0.05vw;
                       }
                     }
@@ -102,7 +100,7 @@
                       @include breakpoint(tablet){
                         display: inline-block;
                         font-size: 1.8vw;
-                        padding:2vw 5vw 1.8vw 9vw;
+                        padding:1.7vw 5vw 3.1vw 9vw;
                         line-height: 1.47;
                         width: 60vw;
                       }
@@ -114,37 +112,79 @@
                       word-spacing: 2.5vw;
                       padding-bottom: 10vw;
                       @include breakpoint(tablet){
-                        font-size: 1.1vw;
-                        letter-spacing: 0.12vw;
-                        word-spacing: 4.7vw;
-                        padding-bottom: 7.8vw;
-                        padding-left: 11.2vw;
+                      display: none;
                       }
                     }
+                    .programing-2{
+                      p{
+                      display: none;
+                    }
+                      @include breakpoint(tablet){
+                        margin-left: 9vw;
+                        padding-bottom: 4vw;
+                        p{
+                        color: #c41230;
+                        display: inline-block;
+                        border: 1px solid #bbbbbb;
+                        text-align: center;
+                        width: 9vw;
+                        font-weight: 400;
+                        font-size: 1.2vw;
+                        padding: 0.8vw 1vw 0.6vw 1vw;
+                        margin-right: 0.2vw;
+                        margin-bottom: 3vw;
+                      }
+                    }
+                  }
                     .apply{
                       display: none;
                       @include breakpoint(tablet){
                         display: inline-block;
                         position: relative;
-                        top: -0.8vw;
+                        top: -0.4vw;
                         color: #222222;
                         font-size: 1.4vw;
                         letter-spacing: 0.2vw;
-                        width: 16.3vw;
+                        width: 16.4vw;
                         border: 1.5px solid #222222;
-                        padding: 1vw;
+                        padding: 1.4vw 1vw 0.8vw 1vw;
                         text-align: center;
                         margin-left: 13.9vw;
                       }
+
                     }
                }
+
+      article:nth-child(3){
+          background-color: #ffffff;
+            @include breakpoint(tablet){
+              background-color: #222222;
+              h2{
+                color: #ffffff;
+              }
+              p{
+                color: #ffffff;
+                font-weight: lighter;
+              }
+              .apply{
+                color: #ffffff;
+                border: 1.5px solid #ffffff;
+              }
+              .programing-2{
+                p{
+                  color: #ffffff;
+                  border: 1px solid #ffffff;
+                }
+              }
+            }
+      }
 
       .more-jobs{
               background-color: #ffffff;
               padding: 24vw 5vw 24vw 5vw;
               text-align: center;
                 @include breakpoint(tablet){
-                  padding: 3vw 5vw 13.5vw 5vw;
+                  padding: 3.2vw 5vw 14vw 5vw;
                 }
 
               h2{

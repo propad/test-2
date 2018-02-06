@@ -5,18 +5,12 @@ html{
 
 body{
   .page-top{
-background-color: rgb(1, 1, 1);
-background-image: url("../assets/img/mobile-back.png");
-background-size: 100% 100%;
-background-repeat: no-repeat;
-// background-attachment: fixed;
- }
-}
-
-@media (min-width: 1024px){
-  body{
-  .page-top{
-    background-image: url("../assets/img/tablet-back.png");
+    background-color: rgb(1, 1, 1);
+    background-image: url("../assets/img/mobile-back.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    @include breakpoint(tablet){
+      background-image: url("../assets/img/tablet-back.png");
+    }
   }
-}
 }
