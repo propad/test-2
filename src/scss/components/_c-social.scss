@@ -8,21 +8,32 @@
     padding-top: 9vw;
     padding-bottom: 13.5vw;
     text-align: center;
+  }
+  @include breakpoint(desktop){
+    background-color: #ffffff;
+    padding-top: 7.2vw;
+    padding-bottom: 7.5vw;
+    text-align: center;
   };
 
   h2{
     font-size: 4.4vw;
     font-weight: regular;
     letter-spacing: 0.65vw;
-    // padding-top: 12.8vw;
     padding-bottom: 10vw;
     color: #999999;
     @include breakpoint(tablet){
       font-size: 1.2vw;
       font-weight: regular;
       letter-spacing: 0.1vw;
-      // padding-top: 12.8vw;
       padding-bottom: 2.5vw;
+      color: #999999;
+    }
+    @include breakpoint(desktop){
+      font-size: 0.8vw;
+      font-weight: regular;
+      letter-spacing: 0.12vw;
+      padding-bottom: 1.6vw;
       color: #999999;
     }
  }
@@ -32,6 +43,10 @@
     @include breakpoint(tablet){
       margin: auto;
       width: 14.2vw;
+    }
+    @include breakpoint(desktop){
+      margin: auto;
+      width: 10.1vw;
     }
   }
 }

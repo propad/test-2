@@ -12,5 +12,9 @@ body{
     @include breakpoint(tablet){
       background-image: url("../assets/img/tablet-back.png");
     }
+    @include breakpoint(desktop){
+      background-image: url("../assets/img/tablet-back.png");
+      margin-top: -1vw;
+    }
   }
 }

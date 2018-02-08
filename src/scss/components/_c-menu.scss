@@ -10,10 +10,21 @@ list-style-type: none;
 transform-origin: 0% 0%;
 transform: translate(0, -115%);
 transition: transform 0.5s ease;
+@include breakpoint(tablet){
+  padding-top: 10vw;
+  padding-bottom: 10vw;
+  transform: translate(0, -128%);
+}
+@include breakpoint(desktop){
+  display: none;
+}
 
 
        &.open{
         transform: translate(0, 0);
+        @include breakpoint(tablet){
+          transform: translate(0, -9%);
+        }
       }
 
       h3{
@@ -24,6 +35,14 @@ transition: transform 0.5s ease;
         position: relative;
         float: left;
         padding: 23.5vw 0 0 6.5vw;
+        @include breakpoint(tablet){
+          font-size: 1.2vw;
+          padding: 6vw 0 0 72vw;
+          letter-spacing: 0.5vw;
+        }
+        @include breakpoint(desktop){
+          display: none;
+        }
       }
 
       li{
@@ -33,20 +52,39 @@ transition: transform 0.5s ease;
         letter-spacing: 0.1vw;
         font-size: 7.5vw;
         padding-bottom: 17vw;
+        @include breakpoint(tablet){
+          font-size: 2.6vw;
+          padding-bottom: 5vw;
+        }
+        @include breakpoint(desktop){
+          display: none;
+        }
+
       }
 
       .fb, .twitter-1{
         position: relative;
         display: inline-block;
         float: right;
+      @include breakpoint(desktop){
+        display: none;
       }
+    }
 
       .fb{
         padding: 20vw 8.5vw 0 0;
         width: 13vw;
+        @include breakpoint(tablet){
+          padding: 5vw 0vw 0 0;
+          width: 5vw;
+        }
       }
       .twitter-1{
         padding: 21vw 8.5vw 0 0;
         width: 16vw;
+        @include breakpoint(tablet){
+          padding: 5.5vw 0 0 0;
+          width: 6vw;
+        }
       }
 }

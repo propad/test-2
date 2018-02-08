@@ -3,6 +3,9 @@
   @include breakpoint(tablet){
     padding-top: 16vw;
   }
+  @include breakpoint(desktop){
+    padding-top: 15.3vw;
+  }
 h1{
   font-size: 18.6vw;
   font-family: "Roboto";
@@ -19,6 +22,13 @@ h1{
     letter-spacing: 0.15vw;
     margin-left: 0vw;
   }
+  @include breakpoint(desktop){
+    font-size: 5.4vw;
+    padding-top: 0vw;
+    letter-spacing: 0.1vw;
+    margin-left: 0.7vw;
+    padding-bottom: 1.8vw;
+  }
 }
 
 h2{
@@ -34,6 +44,24 @@ h2{
   @include breakpoint(tablet){
     display: none;
   }
+  @include breakpoint(desktop){
+    display: none;
+  }
+}
+.line{
+  display: none;
+  @include breakpoint(tablet){
+    display: none;
+  }
+  @include breakpoint(desktop){
+    display: block;
+    border: 1px solid #c41230;
+    width: 3.8%;
+    position: relative;
+    left: 46.2%;
+    margin-left: 2vw;
+    margin-bottom: 2.8vw;
+  }
 }
 p{
   display: none;
@@ -46,6 +74,17 @@ p{
     line-height: 1.2;
     text-align: center;
     padding: 5.5vw 21vw 11.5vw 21vw;
+    letter-spacing: -0.05vw;
+  }
+  @include breakpoint(desktop){
+    display: block;
+    font-size: 1.8vw;
+    font-family: "Helvetica";
+    font-weight: normal;
+    color: rgb(34, 34, 34);
+    line-height: 1.2;
+    text-align: center;
+    padding: 0vw 31vw 16.4vw 30vw;
     letter-spacing: -0.05vw;
   }
 }

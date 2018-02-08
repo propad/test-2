@@ -73,6 +73,10 @@ body .page-top {
   @media (min-width: 768px) and (max-width: 1024px) {
     body .page-top {
       background-image: url("../assets/img/tablet-back.png"); } }
+  @media (min-width: 1025px) {
+    body .page-top {
+      background-image: url("../assets/img/tablet-back.png");
+      margin-top: -1vw; } }
 
 header {
   position: fixed;
@@ -80,11 +84,25 @@ header {
   background-color: #efe9db;
   width: 100%;
   z-index: 20; }
+  header p {
+    display: none; }
   @media (min-width: 768px) and (max-width: 1024px) {
     header {
       height: 8vw;
       background-color: #f3eee3;
       padding-top: 0.3vw; } }
+  @media (min-width: 1025px) {
+    header {
+      height: 7vw;
+      background-color: #f1ece0; }
+      header p {
+        display: inline-block;
+        position: relative;
+        color: #222222;
+        font-size: 1vw;
+        letter-spacing: 0.05vw;
+        margin-right: 2.65vw;
+        top: -1.2vw; } }
 
 .logo {
   display: inline-block;
@@ -95,6 +113,10 @@ header {
     .logo {
       margin: 2.5vw 0 0 5.6vw;
       width: 12.5vw; } }
+  @media (min-width: 1025px) {
+    .logo {
+      margin: 2.2vw 34.1vw 0 18.1vw;
+      width: 10.2vw; } }
 
 .burger {
   display: inline-block;
@@ -109,6 +131,9 @@ header {
     .burger {
       width: 2.8vw;
       margin: 2.1vw 2.3vw 0 0; } }
+  @media (min-width: 1025px) {
+    .burger {
+      display: none; } }
 
 .b-footer {
   background-color: #1e1e1e;
@@ -117,11 +142,17 @@ header {
   @media (min-width: 768px) and (max-width: 1024px) {
     .b-footer {
       display: none; } }
+  @media (min-width: 1025px) {
+    .b-footer {
+      display: none; } }
   .b-footer h2 {
     color: #595959;
     font-size: 4vw;
     font-weight: lighter; }
     @media (min-width: 768px) and (max-width: 1024px) {
+      .b-footer h2 {
+        display: none; } }
+    @media (min-width: 1025px) {
       .b-footer h2 {
         display: none; } }
 
@@ -145,16 +176,31 @@ header {
         margin-left: -6vw;
         padding-left: 5.3vw;
         width: 30%; } }
+  @media (min-width: 1025px) {
+    .contact {
+      padding-left: 17.8vw;
+      padding-top: 9.3vw;
+      padding-bottom: 7vw;
+      width: 100%;
+      margin-bottom: -0.2vw; }
+      .contact .location {
+        display: inline-block;
+        width: 32%;
+        vertical-align: top;
+        margin-right: 2.2vw; }
+      .contact #location-3 {
+        margin-left: -5vw;
+        width: 30%; } }
   .contact img, .contact h3 {
     display: inline-block; }
-    @media (min-width: 768px) and (max-width: 1024px) {
-      .contact img, .contact h3 {
-        display: inline-block; } }
   .contact .map {
     width: 5.4vw; }
     @media (min-width: 768px) and (max-width: 1024px) {
       .contact .map {
         width: 1.8vw; } }
+    @media (min-width: 1025px) {
+      .contact .map {
+        width: 1.3vw; } }
   .contact h3 {
     color: #f2f2f2;
     position: absolute;
@@ -166,6 +212,11 @@ header {
         margin-top: 0.9vw;
         margin-left: 0.8vw;
         font-size: 1.5vw; } }
+    @media (min-width: 1025px) {
+      .contact h3 {
+        margin-top: 0.7vw;
+        margin-left: 0.7vw;
+        font-size: 1.1vw; } }
   .contact p {
     padding-top: 3vw;
     padding-bottom: 15vw;
@@ -183,6 +234,14 @@ header {
         line-height: 2.4vw;
         letter-spacing: 0vw;
         font-size: 1.5vw; } }
+    @media (min-width: 1025px) {
+      .contact p {
+        padding-top: 1.4vw;
+        padding-bottom: 0vw;
+        margin-left: 0vw;
+        line-height: 1.7vw;
+        letter-spacing: -0.02vw;
+        font-size: 1.1vw; } }
 
 .social-2 {
   background-color: #222222;
@@ -191,6 +250,10 @@ header {
     .social-2 {
       background-color: #1e1e1e;
       padding: 2vw 1vw 2vw 2vw; } }
+  @media (min-width: 1025px) {
+    .social-2 {
+      background-color: #1e1e1e;
+      padding: 1.75vw 1vw 1.5vw 2vw; } }
   .social-2 h2 {
     display: none; }
     @media (min-width: 768px) and (max-width: 1024px) {
@@ -204,6 +267,17 @@ header {
         font-size: 1.2vw;
         left: 4.6vw;
         bottom: 0.7vw; } }
+    @media (min-width: 1025px) {
+      .social-2 h2 {
+        display: inline-block;
+        position: relative;
+        background-color: #1e1e1e;
+        letter-spacing: -0.015vw;
+        color: #595959;
+        font-size: 0.9vw;
+        left: 15.8vw;
+        bottom: 0.4vw;
+        padding-right: 20vw; } }
   .social-2 #linkedin {
     display: inline-block;
     margin-left: 10.2vw;
@@ -215,6 +289,12 @@ header {
         width: 2.2vw;
         margin-top: 0.5vw;
         margin-left: 5.2vw; } }
+    @media (min-width: 1025px) {
+      .social-2 #linkedin {
+        display: inline-block;
+        width: 1.5vw;
+        margin-top: 0vw;
+        margin-left: 20.2vw; } }
   .social-2 #twitter-2 {
     display: inline-block;
     margin-left: 7.5vw;
@@ -225,7 +305,14 @@ header {
         margin-top: -0.5vw;
         margin-left: 2.4vw;
         margin-right: 0vw;
-        width: 2.2vw; } }
+        width: 2.1vw; } }
+    @media (min-width: 1025px) {
+      .social-2 #twitter-2 {
+        display: inline-block;
+        margin-top: 0vw;
+        margin-left: 1.7vw;
+        margin-right: 0vw;
+        width: 1.5vw; } }
   .social-2 #site {
     display: inline-block;
     color: #5d5d5d;
@@ -243,6 +330,13 @@ header {
         margin-top: 1.4vw;
         margin-right: 2.7vw;
         letter-spacing: 0.05vw; } }
+    @media (min-width: 1025px) {
+      .social-2 #site {
+        display: inline-block;
+        font-size: 0.9vw;
+        margin-top: 0.6vw;
+        margin-right: 17.3vw;
+        letter-spacing: 0.055vw; } }
 
 .text-blocks .jobs {
   background-color: #ffffff;
@@ -260,6 +354,12 @@ header {
         letter-spacing: 0.29vw;
         padding-top: 15.5vw;
         padding-bottom: 4vw; } }
+    @media (min-width: 1025px) {
+      .text-blocks .jobs h2 {
+        font-size: 0.7vw;
+        letter-spacing: 0.18vw;
+        padding-top: 9.5vw;
+        padding-bottom: 2.7vw; } }
   .text-blocks .jobs h1 {
     font-size: 11.7vw;
     font-weight: medium;
@@ -273,6 +373,11 @@ header {
         font-size: 4.8vw;
         letter-spacing: 0.05vw;
         padding-bottom: 3.8vw; } }
+    @media (min-width: 1025px) {
+      .text-blocks .jobs h1 {
+        font-size: 3.4vw;
+        letter-spacing: 0.05vw;
+        padding-bottom: 2.7vw; } }
   .text-blocks .jobs .line {
     border: 1px solid #c41230;
     width: 18%;
@@ -288,6 +393,14 @@ header {
         left: 45%;
         margin-left: 2vw;
         margin-bottom: 4.5vw; } }
+    @media (min-width: 1025px) {
+      .text-blocks .jobs .line {
+        border: 1px solid #c41230;
+        width: 4%;
+        position: relative;
+        left: 45%;
+        margin-left: 3vw;
+        margin-bottom: 4vw; } }
   .text-blocks .jobs p {
     font-size: 6vw;
     font-weight: 300;
@@ -301,12 +414,21 @@ header {
         font-size: 2.3vw;
         padding: 0 14vw 5vw 14vw;
         line-height: 1.5;
+        letter-spacing: 0.02vw; } }
+    @media (min-width: 1025px) {
+      .text-blocks .jobs p {
+        font-size: 1.6vw;
+        padding: 0 24.5vw 5vw 24.5vw;
+        line-height: 1.5;
         letter-spacing: 0vw; } }
 
 .text-blocks .job {
   background-color: #f8f7f5;
   text-align: left; }
   @media (min-width: 768px) and (max-width: 1024px) {
+    .text-blocks .job {
+      background-color: #ffffff; } }
+  @media (min-width: 1025px) {
     .text-blocks .job {
       background-color: #ffffff; } }
   .text-blocks .job h2 {
@@ -320,6 +442,11 @@ header {
         font-size: 1.9vw;
         padding: 4.5vw 0 0.3vw 9vw;
         letter-spacing: 0.05vw; } }
+    @media (min-width: 1025px) {
+      .text-blocks .job h2 {
+        font-size: 1vw;
+        padding: 3.8vw 0 0.3vw 21vw;
+        letter-spacing: 0.06vw; } }
   .text-blocks .job p {
     font-size: 4.7vw;
     font-weight: lighter;
@@ -333,6 +460,14 @@ header {
         padding: 1.7vw 5vw 3.1vw 9vw;
         line-height: 1.47;
         width: 60vw; } }
+    @media (min-width: 1025px) {
+      .text-blocks .job p {
+        display: inline-block;
+        font-size: 1.3vw;
+        letter-spacing: 0.001vw;
+        padding: 1.1vw 5vw 2.1vw 21vw;
+        line-height: 1.47;
+        width: 65vw; } }
   .text-blocks .job .programing {
     font-size: 4.1vw;
     letter-spacing: 0.15vw;
@@ -340,6 +475,9 @@ header {
     word-spacing: 2.5vw;
     padding-bottom: 10vw; }
     @media (min-width: 768px) and (max-width: 1024px) {
+      .text-blocks .job .programing {
+        display: none; } }
+    @media (min-width: 1025px) {
       .text-blocks .job .programing {
         display: none; } }
   .text-blocks .job .programing-2 p {
@@ -359,6 +497,21 @@ header {
         padding: 0.8vw 1vw 0.6vw 1vw;
         margin-right: 0.2vw;
         margin-bottom: 3vw; } }
+  @media (min-width: 1025px) {
+    .text-blocks .job .programing-2 {
+      margin-left: 21vw;
+      padding-bottom: 2vw; }
+      .text-blocks .job .programing-2 p {
+        color: #c41230;
+        display: inline-block;
+        border: 1px solid #bbbbbb;
+        text-align: center;
+        width: 6vw;
+        font-weight: 400;
+        font-size: 0.8vw;
+        padding: 0.6vw 1vw 0.6vw 1vw;
+        margin-right: 0.2vw;
+        margin-bottom: 0.8vw; } }
   .text-blocks .job .apply {
     display: none; }
     @media (min-width: 768px) and (max-width: 1024px) {
@@ -374,6 +527,19 @@ header {
         padding: 1.4vw 1vw 0.8vw 1vw;
         text-align: center;
         margin-left: 13.9vw; } }
+    @media (min-width: 1025px) {
+      .text-blocks .job .apply {
+        display: inline-block;
+        position: relative;
+        top: -0.3vw;
+        color: #222222;
+        font-size: 1vw;
+        letter-spacing: 0.15vw;
+        width: 11.8vw;
+        border: 1.5px solid #222222;
+        padding: 1vw 1vw 0.6vw 1vw;
+        text-align: center;
+        margin-left: 2vw; } }
 
 .text-blocks article:nth-child(3) {
   background-color: #ffffff; }
@@ -383,8 +549,20 @@ header {
       .text-blocks article:nth-child(3) h2 {
         color: #ffffff; }
       .text-blocks article:nth-child(3) p {
+        color: #ffffff; }
+      .text-blocks article:nth-child(3) .apply {
         color: #ffffff;
-        font-weight: lighter; }
+        border: 1.5px solid #ffffff; }
+      .text-blocks article:nth-child(3) .programing-2 p {
+        color: #ffffff;
+        border: 1px solid #ffffff; } }
+  @media (min-width: 1025px) {
+    .text-blocks article:nth-child(3) {
+      background-color: #222222; }
+      .text-blocks article:nth-child(3) h2 {
+        color: #ffffff; }
+      .text-blocks article:nth-child(3) p {
+        color: #ffffff; }
       .text-blocks article:nth-child(3) .apply {
         color: #ffffff;
         border: 1.5px solid #ffffff; }
@@ -399,6 +577,9 @@ header {
   @media (min-width: 768px) and (max-width: 1024px) {
     .text-blocks .more-jobs {
       padding: 3.2vw 5vw 14vw 5vw; } }
+  @media (min-width: 1025px) {
+    .text-blocks .more-jobs {
+      padding: 6.8vw 5vw 9.8vw 5vw; } }
   .text-blocks .more-jobs h2 {
     font-size: 4.3vw;
     letter-spacing: 0.7vw;
@@ -415,12 +596,22 @@ header {
         width: 21.6vw;
         height: 5vw;
         padding-top: 2vw; } }
+    @media (min-width: 1025px) {
+      .text-blocks .more-jobs h2 {
+        font-size: 1vw;
+        letter-spacing: 0.13vw;
+        width: 15.4vw;
+        height: 3.5vw;
+        padding-top: 1.5vw; } }
 
 .c-page-title {
   padding-top: 21.7vw; }
   @media (min-width: 768px) and (max-width: 1024px) {
     .c-page-title {
       padding-top: 16vw; } }
+  @media (min-width: 1025px) {
+    .c-page-title {
+      padding-top: 15.3vw; } }
   .c-page-title h1 {
     font-size: 18.6vw;
     font-family: "Roboto";
@@ -437,6 +628,13 @@ header {
         padding-top: 0;
         letter-spacing: 0.15vw;
         margin-left: 0vw; } }
+    @media (min-width: 1025px) {
+      .c-page-title h1 {
+        font-size: 5.4vw;
+        padding-top: 0vw;
+        letter-spacing: 0.1vw;
+        margin-left: 0.7vw;
+        padding-bottom: 1.8vw; } }
   .c-page-title h2 {
     font-size: 6.2vw;
     font-family: "Roboto";
@@ -450,6 +648,23 @@ header {
     @media (min-width: 768px) and (max-width: 1024px) {
       .c-page-title h2 {
         display: none; } }
+    @media (min-width: 1025px) {
+      .c-page-title h2 {
+        display: none; } }
+  .c-page-title .line {
+    display: none; }
+    @media (min-width: 768px) and (max-width: 1024px) {
+      .c-page-title .line {
+        display: none; } }
+    @media (min-width: 1025px) {
+      .c-page-title .line {
+        display: block;
+        border: 1px solid #c41230;
+        width: 3.8%;
+        position: relative;
+        left: 46.2%;
+        margin-left: 2vw;
+        margin-bottom: 2.8vw; } }
   .c-page-title p {
     display: none; }
     @media (min-width: 768px) and (max-width: 1024px) {
@@ -463,6 +678,17 @@ header {
         text-align: center;
         padding: 5.5vw 21vw 11.5vw 21vw;
         letter-spacing: -0.05vw; } }
+    @media (min-width: 1025px) {
+      .c-page-title p {
+        display: block;
+        font-size: 1.8vw;
+        font-family: "Helvetica";
+        font-weight: normal;
+        color: #222222;
+        line-height: 1.2;
+        text-align: center;
+        padding: 0vw 31vw 16.4vw 30vw;
+        letter-spacing: -0.05vw; } }
 
 .social {
   background-color: #ffffff;
@@ -474,6 +700,12 @@ header {
       background-color: #ffffff;
       padding-top: 9vw;
       padding-bottom: 13.5vw;
+      text-align: center; } }
+  @media (min-width: 1025px) {
+    .social {
+      background-color: #ffffff;
+      padding-top: 7.2vw;
+      padding-bottom: 7.5vw;
       text-align: center; } }
   .social h2 {
     font-size: 4.4vw;
@@ -488,6 +720,13 @@ header {
         letter-spacing: 0.1vw;
         padding-bottom: 2.5vw;
         color: #999999; } }
+    @media (min-width: 1025px) {
+      .social h2 {
+        font-size: 0.8vw;
+        font-weight: regular;
+        letter-spacing: 0.12vw;
+        padding-bottom: 1.6vw;
+        color: #999999; } }
   .social img {
     margin: auto;
     width: 44.4vw; }
@@ -495,6 +734,10 @@ header {
       .social img {
         margin: auto;
         width: 14.2vw; } }
+    @media (min-width: 1025px) {
+      .social img {
+        margin: auto;
+        width: 10.1vw; } }
 
 .c-menu {
   background-color: #252424;
@@ -508,8 +751,19 @@ header {
   transform-origin: 0% 0%;
   transform: translate(0, -115%);
   transition: transform 0.5s ease; }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .c-menu {
+      padding-top: 10vw;
+      padding-bottom: 10vw;
+      transform: translate(0, -128%); } }
+  @media (min-width: 1025px) {
+    .c-menu {
+      display: none; } }
   .c-menu.open {
     transform: translate(0, 0); }
+    @media (min-width: 768px) and (max-width: 1024px) {
+      .c-menu.open {
+        transform: translate(0, -9%); } }
   .c-menu h3 {
     color: #797878;
     font-size: 5.2vw;
@@ -518,6 +772,14 @@ header {
     position: relative;
     float: left;
     padding: 23.5vw 0 0 6.5vw; }
+    @media (min-width: 768px) and (max-width: 1024px) {
+      .c-menu h3 {
+        font-size: 1.2vw;
+        padding: 6vw 0 0 72vw;
+        letter-spacing: 0.5vw; } }
+    @media (min-width: 1025px) {
+      .c-menu h3 {
+        display: none; } }
   .c-menu li {
     position: relative;
     color: #c1c1c1;
@@ -525,22 +787,43 @@ header {
     letter-spacing: 0.1vw;
     font-size: 7.5vw;
     padding-bottom: 17vw; }
+    @media (min-width: 768px) and (max-width: 1024px) {
+      .c-menu li {
+        font-size: 2.6vw;
+        padding-bottom: 5vw; } }
+    @media (min-width: 1025px) {
+      .c-menu li {
+        display: none; } }
   .c-menu .fb, .c-menu .twitter-1 {
     position: relative;
     display: inline-block;
     float: right; }
+    @media (min-width: 1025px) {
+      .c-menu .fb, .c-menu .twitter-1 {
+        display: none; } }
   .c-menu .fb {
     padding: 20vw 8.5vw 0 0;
     width: 13vw; }
+    @media (min-width: 768px) and (max-width: 1024px) {
+      .c-menu .fb {
+        padding: 5vw 0vw 0 0;
+        width: 5vw; } }
   .c-menu .twitter-1 {
     padding: 21vw 8.5vw 0 0;
     width: 16vw; }
+    @media (min-width: 768px) and (max-width: 1024px) {
+      .c-menu .twitter-1 {
+        padding: 5.5vw 0 0 0;
+        width: 6vw; } }
 
 .objects-list {
   position: relative;
   text-align: center;
   background-color: #fbfbfb; }
   @media (min-width: 768px) and (max-width: 1024px) {
+    .objects-list {
+      margin-top: -0.2vw; } }
+  @media (min-width: 1025px) {
     .objects-list {
       margin-top: -0.2vw; } }
   .objects-list #web {
@@ -552,6 +835,12 @@ header {
           width: 6vw;
           padding-top: 4vw;
           padding-bottom: 3vw; } }
+      @media (min-width: 1025px) {
+        .objects-list #web img {
+          position: relative;
+          width: 6vw;
+          padding-top: 6.8vw;
+          padding-bottom: 3vw; } }
   .objects-list #team img {
     width: 23.4vw;
     padding-top: 20.5vw; }
@@ -560,8 +849,18 @@ header {
         width: 6vw;
         padding-top: 4vw;
         padding-bottom: 3vw; } }
+    @media (min-width: 1025px) {
+      .objects-list #team img {
+        width: 6vw;
+        padding-top: 4vw;
+        padding-bottom: 3vw; } }
 
 @media (min-width: 768px) and (max-width: 1024px) {
+  .object {
+    display: inline-block;
+    width: 32.9%; } }
+
+@media (min-width: 1025px) {
   .object {
     display: inline-block;
     width: 33%; } }
@@ -576,6 +875,11 @@ header {
       width: 7vw;
       padding-top: 4vw;
       padding-bottom: 3vw; } }
+  @media (min-width: 1025px) {
+    .object img {
+      width: 7vw;
+      padding-top: 6.7vw;
+      padding-bottom: 3vw; } }
 
 .object h2 {
   font-size: 6.2vw;
@@ -589,6 +893,12 @@ header {
       font-weight: 700;
       letter-spacing: 0.39vw;
       padding-bottom: 3.5vw; } }
+  @media (min-width: 1025px) {
+    .object h2 {
+      font-size: 1.2vw;
+      font-weight: 700;
+      letter-spacing: 0.29vw;
+      padding-bottom: 4.2vw; } }
 
 .object .line {
   border: 1px solid #d0d0d0;
@@ -601,6 +911,12 @@ header {
       width: 10%;
       left: 45%;
       bottom: 1vw; } }
+  @media (min-width: 1025px) {
+    .object .line {
+      border: 1px solid #c4c4c4;
+      width: 10%;
+      left: 45.5%;
+      bottom: 1.4vw; } }
 
 .object p {
   font-size: 5.6vw;
@@ -616,14 +932,16 @@ header {
       padding: 1vw 2vw 7.5vw 2vw;
       line-height: 1.71;
       letter-spacing: 0.01vw; } }
+  @media (min-width: 1025px) {
+    .object p {
+      font-size: 1vw;
+      padding: 0.8vw 4vw 4.6vw 4vw;
+      line-height: 1.71;
+      letter-spacing: 0.02vw; } }
 
 .company {
   background-color: #fbfbfb;
   text-align: center; }
-  @media (min-width: 768px) and (max-width: 1024px) {
-    .company {
-      background-color: #fbfbfb;
-      text-align: center; } }
   .company h2 {
     font-size: 4.4vw;
     font-weight: regular;
@@ -638,6 +956,12 @@ header {
         letter-spacing: 0.2vw;
         padding-top: 8.8vw;
         padding-bottom: 4vw; } }
+    @media (min-width: 1025px) {
+      .company h2 {
+        font-size: 0.7vw;
+        letter-spacing: 0.19vw;
+        padding-top: 6.3vw;
+        padding-bottom: 2.9vw; } }
   .company h1 {
     font-size: 11.7vw;
     font-weight: medium;
@@ -653,6 +977,12 @@ header {
         letter-spacing: 0.1vw;
         padding: 0 15vw 4.2vw 15vw;
         margin-left: -1.5vw; } }
+    @media (min-width: 1025px) {
+      .company h1 {
+        font-size: 3.3vw;
+        letter-spacing: 0.09vw;
+        padding: 0 15vw 3vw 15vw;
+        margin-left: -0.3vw; } }
   .company .line {
     border: 1px solid #c41230;
     width: 18%;
@@ -666,6 +996,12 @@ header {
         left: 48%;
         margin-left: -1vw;
         margin-bottom: 5.6vw; } }
+    @media (min-width: 1025px) {
+      .company .line {
+        width: 4.1%;
+        left: 48%;
+        margin-left: 0vw;
+        margin-bottom: 4vw; } }
   .company p {
     font-size: 5.7vw;
     font-weight: lighter;
@@ -677,5 +1013,11 @@ header {
       .company p {
         font-size: 1.8vw;
         padding: 0 9vw 12.5vw 10vw;
+        letter-spacing: -0.02vw;
+        line-height: 1.55; } }
+    @media (min-width: 1025px) {
+      .company p {
+        font-size: 1vw;
+        padding: 0 21vw 8.8vw 21.5vw;
         letter-spacing: -0.02vw;
         line-height: 1.55; } }

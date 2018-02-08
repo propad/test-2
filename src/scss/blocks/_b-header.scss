@@ -4,10 +4,26 @@ header{
   background-color: #efe9db;
   width: 100%;
   z-index: 20;
+  p{
+    display: none;
+  }
   @include breakpoint(tablet){
     height: 8vw;
     background-color: #f3eee3;
     padding-top: 0.3vw;
+  }
+  @include breakpoint(desktop){
+    height: 7vw;
+    background-color: #f1ece0;
+    p{
+      display: inline-block;
+      position: relative;
+      color: #222222;
+      font-size: 1vw;
+      letter-spacing: 0.05vw;
+      margin-right: 2.65vw;
+      top: -1.2vw;
+    }
   }
 }
 
@@ -20,6 +36,10 @@ header{
   @include breakpoint(tablet){
     margin: 2.5vw 0 0 5.6vw;
     width: 12.5vw;
+  }
+  @include breakpoint(desktop){
+    margin: 2.2vw 34.1vw 0 18.1vw;
+    width: 10.2vw;
   }
 }
 
@@ -35,5 +55,8 @@ header{
   @include breakpoint(tablet){
     width: 2.8vw;
     margin: 2.1vw 2.3vw 0 0;
+  }
+  @include breakpoint(desktop){
+    display: none;
   }
 }
