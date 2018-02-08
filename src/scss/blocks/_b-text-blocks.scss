@@ -18,9 +18,9 @@
                     padding-bottom: 4vw;
                   }
                   @include breakpoint(desktop){
-                    font-size: 0.7vw;
+                    font-size: 0.9vw;
                     letter-spacing: 0.18vw;
-                    padding-top: 9.5vw;
+                    padding-top: 9.7vw;
                     padding-bottom: 2.7vw;
                   }
                 }
@@ -86,9 +86,9 @@
                     }
                     @include breakpoint(desktop){
                       font-size: 1.6vw;
-                      padding:0 24.5vw 5vw 24.5vw;
+                      padding:0 24.5vw 5.4vw 24.5vw;
                       line-height: 1.5;
-                      letter-spacing: 0vw;
+                      letter-spacing: 0.025vw;
                     }
                   }
              }
@@ -118,7 +118,7 @@
                         letter-spacing: 0.05vw;
                       }
                       @include breakpoint(desktop){
-                        font-size: 1vw;
+                        font-size: 1.3vw;
                         padding: 3.8vw 0 0.3vw 21vw;
                         letter-spacing: 0.06vw;
                       }

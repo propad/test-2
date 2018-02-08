@@ -75,8 +75,7 @@ body .page-top {
       background-image: url("../assets/img/tablet-back.png"); } }
   @media (min-width: 1025px) {
     body .page-top {
-      background-image: url("../assets/img/tablet-back.png");
-      margin-top: -1vw; } }
+      background-image: url("../assets/img/tablet-back.png"); } }
 
 header {
   position: fixed;
@@ -236,7 +235,7 @@ header {
         font-size: 1.5vw; } }
     @media (min-width: 1025px) {
       .contact p {
-        padding-top: 1.4vw;
+        padding-top: 1.3vw;
         padding-bottom: 0vw;
         margin-left: 0vw;
         line-height: 1.7vw;
@@ -356,9 +355,9 @@ header {
         padding-bottom: 4vw; } }
     @media (min-width: 1025px) {
       .text-blocks .jobs h2 {
-        font-size: 0.7vw;
+        font-size: 0.9vw;
         letter-spacing: 0.18vw;
-        padding-top: 9.5vw;
+        padding-top: 9.7vw;
         padding-bottom: 2.7vw; } }
   .text-blocks .jobs h1 {
     font-size: 11.7vw;
@@ -418,9 +417,9 @@ header {
     @media (min-width: 1025px) {
       .text-blocks .jobs p {
         font-size: 1.6vw;
-        padding: 0 24.5vw 5vw 24.5vw;
+        padding: 0 24.5vw 5.4vw 24.5vw;
         line-height: 1.5;
-        letter-spacing: 0vw; } }
+        letter-spacing: 0.025vw; } }
 
 .text-blocks .job {
   background-color: #f8f7f5;
@@ -444,7 +443,7 @@ header {
         letter-spacing: 0.05vw; } }
     @media (min-width: 1025px) {
       .text-blocks .job h2 {
-        font-size: 1vw;
+        font-size: 1.3vw;
         padding: 3.8vw 0 0.3vw 21vw;
         letter-spacing: 0.06vw; } }
   .text-blocks .job p {
@@ -722,7 +721,7 @@ header {
         color: #999999; } }
     @media (min-width: 1025px) {
       .social h2 {
-        font-size: 0.8vw;
+        font-size: 1vw;
         font-weight: regular;
         letter-spacing: 0.12vw;
         padding-bottom: 1.6vw;
@@ -958,10 +957,10 @@ header {
         padding-bottom: 4vw; } }
     @media (min-width: 1025px) {
       .company h2 {
-        font-size: 0.7vw;
+        font-size: 0.9vw;
         letter-spacing: 0.19vw;
-        padding-top: 6.3vw;
-        padding-bottom: 2.9vw; } }
+        padding-top: 6.4vw;
+        padding-bottom: 2.8vw; } }
   .company h1 {
     font-size: 11.7vw;
     font-weight: medium;
@@ -1017,7 +1016,7 @@ header {
         line-height: 1.55; } }
     @media (min-width: 1025px) {
       .company p {
-        font-size: 1vw;
+        font-size: 1.3vw;
         padding: 0 21vw 8.8vw 21.5vw;
         letter-spacing: -0.02vw;
-        line-height: 1.55; } }
+        line-height: 1.5; } }
